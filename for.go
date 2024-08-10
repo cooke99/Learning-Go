@@ -32,6 +32,7 @@ func main() {
 		}
 		fmt.Println("n", n)
 	}
+	// fmt.Println("n outside loop", n) n not defined outside for loop scope/context
 
 	var m int
 	for m = 0; m < 3; m++ {
