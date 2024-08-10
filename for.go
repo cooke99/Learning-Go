@@ -8,9 +8,10 @@ func main() {
 	i := 1
 	for i <= 3 {
 		fmt.Println("i", i)
-		i++
+		i++ // ++i doesn't exist in Go
 	}
 
+	// initializer must be a simple statement, can't do var j int = 0;
 	for j := 0; j < 3; j++ {
 		fmt.Println("j", j)
 	}
@@ -30,6 +31,11 @@ func main() {
 			continue
 		}
 		fmt.Println("n", n)
+	}
+
+	var m int
+	for m = 0; m < 3; m++ {
+		fmt.Println("m", m)
 	}
 
 }
