@@ -21,5 +21,5 @@ func main() {
 		fmt.Println(num, "> 10")
 	}
 	// any variables declared in statement are available in current and subsequent branches i.e.
-	// num available in if/else if/else branches but not outside
+	// num available in if / else if /  else branches but not outside
 }

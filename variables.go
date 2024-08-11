@@ -27,4 +27,6 @@ func main() {
 	f := "apple" // Shorthand for var f string = "apple" --> only available inside functions
 	fmt.Println(f)
 
+	// var g --> can't initialise without type
+
 }
